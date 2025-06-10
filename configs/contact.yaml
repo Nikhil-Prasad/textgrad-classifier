@@ -1,0 +1,7 @@
+# configs/contact.yaml
+engine:
+  provider: openai         # still litellm under the hood
+  model: gpt-4o
+  params:
+    temperature: 0.2
+    max_tokens: 4

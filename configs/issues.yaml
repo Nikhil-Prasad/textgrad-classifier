@@ -1,0 +1,7 @@
+# configs/contact.yaml  (same for issues.yaml)
+engine:
+  provider: openai          # ⬅️  switch from “litellm → azure” to “openai”
+  model: gpt-4o             # open-model name
+  params:
+    temperature: 0.2
+    max_tokens: 4

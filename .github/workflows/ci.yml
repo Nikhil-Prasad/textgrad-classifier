@@ -1,0 +1,59 @@
+# .github/workflows/ci.yml
+name: textgrad-ci                    # Appears in the Actions tab
+
+on: workflow_dispatch                # Manual trigger for initial commit only.
+
+jobs:
+  test:
+    runs-on: ubuntu-latest            # Free Linux runner
+    env:                              # Inject secrets as environment vars
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # OPENAI_ORG_ID is optional—add as a repo secret only if you need it
+      # OPENAI_ORG_ID: ${{ secrets.OPENAI_ORG_ID }}
+
+    steps:
+      # 1️⃣  Check out your repository code
+      - uses: actions/checkout@v4
+
+      # 2️⃣  Set up Python (same version you use locally)
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 3️⃣  Install Poetry CLI (global)
+      - name: Install Poetry
+        run: pipx install poetry
+
+      # 4️⃣  Cache Poetry virtual-env to speed up future runs (optional but nice)
+      - name: Cache Poetry venv
+        uses: actions/cache@v4
+        with:
+          key: poetry-venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+          path: ~/.cache/pypoetry
+
+      # 5️⃣  Install project dependencies into Poetry’s virtual-env
+      - name: Install dependencies
+        run: poetry install --no-interaction --no-ansi
+
+      # 6️⃣  Generate datasets
+      - name: Create demo CSVs
+        run: |
+          poetry run python scripts/prepare_data.py contact
+          poetry run python scripts/prepare_data.py issues
+
+      # 7️⃣  Run TextGrad on contact config (smoke test)
+      - name: Run TextGrad pipeline
+        run: |
+          poetry run python scripts/run_textgrad.py \
+                     configs/contact.yaml \
+                     data/contact_notes.csv
+
+      # 8️⃣  Run tests
+      - name: Run tests
+        run: poetry run pytest
+
+      # 9️⃣  Run linters
+      - name: Run linters
+        run: |
+          poetry run black --check .
+          poetry run isort --check .

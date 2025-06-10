@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "textgrad-classifier"
+version = "0.1.0"
+description = "Script-driven prompt-optimization demo using TextGrad"
+authors = ["Nikhil Prasad <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+textgrad = "^0.1.4"
+litellm = "^1.33.6"        
+typer = "^0.12.3"
+faker = "^25.2"
+pandas = "^2.2"
+scikit-learn = "^1.5"
+requests = "^2.32"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1"
+black = "^24.4"
+isort = "^5.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
