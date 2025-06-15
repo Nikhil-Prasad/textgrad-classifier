@@ -3,6 +3,7 @@ name = "textgrad-classifier"
 version = "0.1.0"
 description = "Script-driven prompt-optimization demo using TextGrad"
 authors = ["Nikhil Prasad <you@example.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"

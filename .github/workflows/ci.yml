@@ -44,14 +44,14 @@ jobs:
       # 6️⃣  Generate datasets
       - name: Create demo CSVs
         run: |
-          poetry run python scripts/prepare_data.py contact --rows 40
-          poetry run python scripts/prepare_data.py issues --limit 100
+          poetry run python scripts/data_prep/prepare_data.py issues --limit 300
+          poetry run python scripts/data_prep/prepare_issues_binary.py
 
-      # 7️⃣  Run TextGrad on contact config
-      - name: Run TextGrad Contact Notes Classification
+      # 7️⃣  Run TextGrad on issues config
+      - name: Run TextGrad Issues Bug Detection
         run: |
-          poetry run python scripts/run_textgrad.py configs/contact.yaml
-        continue-on-error: false  # Fail the job if accuracy < 0.70
+          poetry run python scripts/run_textgrad.py configs/issues.yaml
+        continue-on-error: false  # Fail the job if accuracy < 0.80
 
       # 8️⃣  Verify accuracy threshold (backup check)
       - name: Verify accuracy threshold
@@ -69,11 +69,6 @@ jobs:
             cat "$LATEST_OUTPUT"
           fi
 
-      # 9️⃣  Run TextGrad on issues config (optional)
-      - name: Run TextGrad Issues Classification
-        run: |
-          poetry run python scripts/run_textgrad.py configs/issues.yaml
-        continue-on-error: true  # Don't fail CI if issues dataset fails
 
       # 10️⃣  Run tests (if any)
       - name: Run tests
