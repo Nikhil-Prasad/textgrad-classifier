@@ -261,6 +261,6 @@ If you use this code in your research, please cite:
 @software{textgrad-classifier,
   title = {TextGrad Classifier: Low-Level Prompt Optimization Demo},
   year = {2025},
-  url = {https://github.com/YOUR_USERNAME/textgrad-classifier}
+  url = {https://github.com/nikhil-prasad/textgrad-classifier}
 }
 ```
