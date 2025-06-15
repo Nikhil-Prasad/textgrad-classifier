@@ -8,11 +8,12 @@ authors = ["Nikhil Prasad <you@example.com>"]
 python = "^3.12"
 textgrad = "^0.1.4"
 litellm = "^1.33.6"        
-typer = "^0.12.3"
+typer = "^0.16.0"
 faker = "^25.2"
 pandas = "^2.2"
 scikit-learn = "^1.5"
 requests = "^2.32"
+sqlalchemy = "^2.0.41"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1"

@@ -1,7 +1,32 @@
-# configs/contact.yaml
-engine:
-  provider: openai         # still litellm under the hood
-  model: gpt-4o
-  params:
-    temperature: 0.2
-    max_tokens: 4
+# Configuration for TextGrad training on the contact notes dataset
+experiment: "Contact Notes Classification"
+model:
+  engine: "gpt-4o"  # Using OpenAI GPT-4o directly
+  max_tokens: 256
+  temperature: 0.2
+prompt:
+  # Initial prompt templates for system and user roles
+  system: |
+    You are an AI assistant that analyzes customer support notes and determines if the support provided was satisfactory or not.
+    Based on the content of the note, classify it as either "satisfactory" or "needs_follow_up".
+    Be concise and answer with only the classification label.
+  user: |
+    Below is a customer support conversation note:
+    "{{note_content}}"
+    
+    Was the support provided satisfactory? Answer with exactly one of: "satisfactory" or "needs_follow_up".
+training:
+  epochs: 1             # Number of TextGrad optimization iterations
+  batch_size: 5         # Number of samples to evaluate per batch
+  learning_rate: 1.0    # TextGrad "learning rate" for prompt adjustments
+  max_prompt_chars: 20000  # Maximum prompt size in characters (~5k tokens)
+evaluation:
+  # Define evaluation metric and settings
+  expected_classes: ["satisfactory", "needs_follow_up"]
+  metric: "accuracy"
+  success_threshold: 0.70   # Desired accuracy for CI pass/fail
+data:
+  csv_path: "data/contact_notes.csv"
+  text_column: "note_content"
+  label_column: "satisfactory"
+  train_test_split: 0.8

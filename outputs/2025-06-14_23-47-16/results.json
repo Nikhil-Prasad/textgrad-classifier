@@ -1,0 +1,1000 @@
+{
+  "train_history": [
+    {
+      "epoch": 1,
+      "avg_loss": 1.0
+    }
+  ],
+  "eval_history": [
+    {
+      "results": [
+        {
+          "sample_id": 273,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 201,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 161,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 43,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 217,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 145,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 190,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 220,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 251,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 3,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 105,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 53,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 133,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 1,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 131,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 103,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 49,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 80,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 205,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 34,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 91,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 52,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 241,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 13,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 88,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 166,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 294,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 134,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 287,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 243,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 54,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 50,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 174,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 189,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 298,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 187,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 169,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 58,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 48,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 235,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 252,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 21,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 160,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 276,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 191,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 257,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 149,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 130,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 151,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 99,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 87,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 214,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 121,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 299,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 20,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 188,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 71,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 106,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 270,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 102,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        }
+      ],
+      "accuracy": 0.35,
+      "metric": "accuracy",
+      "metric_value": 0.35,
+      "predictions": [
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug"
+      ],
+      "true_labels": [
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug"
+      ]
+    },
+    {
+      "results": [
+        {
+          "sample_id": 273,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 201,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 161,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 43,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 217,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 145,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 190,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 220,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 251,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 3,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 105,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 53,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 133,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 1,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 131,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 103,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 49,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 80,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 205,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 34,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 91,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 52,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 241,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 13,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 88,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 166,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 294,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 134,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 287,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 243,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 54,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 50,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 174,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 189,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 298,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 187,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 169,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 58,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 48,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 235,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 252,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 21,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 160,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 276,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 191,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 257,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 149,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 130,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 151,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 99,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 87,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 214,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 121,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 299,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 20,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 188,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 71,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 106,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 270,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 102,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        }
+      ],
+      "accuracy": 0.35,
+      "metric": "accuracy",
+      "metric_value": 0.35,
+      "predictions": [
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug"
+      ],
+      "true_labels": [
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug"
+      ],
+      "epoch": 1
+    }
+  ],
+  "optimized_prompts": [
+    {
+      "epoch": 1,
+      "path": "outputs/2025-06-14_23-47-16/prompt_epoch_1.txt",
+      "prompt": "You are a software engineering assistant that identifies bug reports in GitHub issues. A bug typically involves unexpected software behavior, errors, or crashes, while a non-bug may involve feature requests, integration/compatibility questions, misunderstandings in usage, or general inquiries. Consider these distinctions while deciding if it is a bug report. Explicitly pay attention to language that suggests advice-seeking or exploratory inquiries, such as \"use,\" \"want to,\" \"can I,\" \"is it possible,\" \"trying to,\" or \"figured out,\" which are common in non-bug reports. If the issue description includes exploratory phrases that co-occur with errors or unexpected behavior, it might still indicate a bug. Incomplete or ambiguous information should be treated by relying on contextual understanding often leaning towards a 'non_bug' when clear defect signals are absent. Perform internal consistency checks against highlighted terms suggesting software defects. Assess the primary intent of the issue, considering if it is more aligned with help-seeking or exploration, rather than documenting a defect. Based on the title, description, and context, determine if the issue is reporting a bug ('bug') or not ('non_bug'). Be concise and answer with only the classification label. Provide brief reasoning for your classification when necessary. Ensure robust analyses by learning from past classifications and employing alternative interpretation reflections."
+    }
+  ]
+}

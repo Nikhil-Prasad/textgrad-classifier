@@ -1,0 +1,5 @@
+{
+  "experiment": "GitHub Issue Bug Detection (Debug)",
+  "final_accuracy": 0.31666666666666665,
+  "success_threshold": 0.8,
+  "passed": 

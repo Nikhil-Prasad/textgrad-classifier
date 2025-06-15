@@ -1,0 +1,1000 @@
+{
+  "train_history": [
+    {
+      "epoch": 1,
+      "avg_loss": 1.0
+    }
+  ],
+  "eval_history": [
+    {
+      "results": [
+        {
+          "sample_id": 273,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 201,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 161,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 43,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 217,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 145,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 190,
+          "accuracy": 0.0,
+          "prediction": "i'm sorry, but i can't evaluate the issue without the specific title and description provided. could you please share the full text of the issue report?",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 220,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 251,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 3,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 105,
+          "accuracy": 0.0,
+          "prediction": "please provide the title and description for the github issue report.",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 53,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 133,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 1,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 131,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 103,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 49,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 80,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 205,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 34,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 91,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 52,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 241,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 13,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 88,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 166,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 294,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 134,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 287,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 243,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 54,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 50,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 174,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 189,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 298,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 187,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 169,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 58,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 48,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 235,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 252,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 21,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 160,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 276,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 191,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 257,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 149,
+          "accuracy": 0.0,
+          "prediction": "i'm sorry, it seems there was an error with the placeholder text \"{title}\" and \"{body}\". could you please provide the actual title and description of the github issue?",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 130,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 151,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 99,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 87,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 214,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 121,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 299,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 20,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 188,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 71,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 106,
+          "accuracy": 0.0,
+          "prediction": "it seems there was a mistake in the prompt as \"{title}\" and \"{body}\" are placeholders. please provide the actual title and description, and i will classify the issue for you.",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 270,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 102,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        }
+      ],
+      "accuracy": 0.31666666666666665,
+      "metric": "accuracy",
+      "metric_value": 0.31666666666666665,
+      "predictions": [
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "i'm sorry, but i can't evaluate the issue without the specific title and description provided. could you please share the full text of the issue report?",
+        "bug",
+        "bug",
+        "bug",
+        "please provide the title and description for the github issue report.",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "i'm sorry, it seems there was an error with the placeholder text \"{title}\" and \"{body}\". could you please provide the actual title and description of the github issue?",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "it seems there was a mistake in the prompt as \"{title}\" and \"{body}\" are placeholders. please provide the actual title and description, and i will classify the issue for you.",
+        "bug",
+        "bug"
+      ],
+      "true_labels": [
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug"
+      ]
+    },
+    {
+      "results": [
+        {
+          "sample_id": 273,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 201,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 161,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 43,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 217,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 145,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 190,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 220,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 251,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 3,
+          "accuracy": 0.0,
+          "prediction": "i'm sorry, i need the content of the \"{title}\" and \"{body}\" to provide a classification.",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 105,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 53,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 133,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 1,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 131,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 103,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 49,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 80,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 205,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 34,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 91,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 52,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 241,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 13,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 88,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 166,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 294,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 134,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 287,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 243,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 54,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 50,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 174,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 189,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 298,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 187,
+          "accuracy": 0.0,
+          "prediction": "i'm sorry, i cannot determine the classification based on the given input, you have provided placeholders instead of actual content. please provide specific details from the github issue report.",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 169,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 58,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 48,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 235,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 252,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 21,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 160,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 276,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 191,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 257,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 149,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 130,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 151,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 99,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 87,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 214,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 121,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 299,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 20,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 188,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 71,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 106,
+          "accuracy": 0.0,
+          "prediction": "bug",
+          "true_label": "non_bug"
+        },
+        {
+          "sample_id": 270,
+          "accuracy": 0.0,
+          "prediction": "i'm sorry, i cannot determine the classification as you've provided placeholders instead of the actual title and description text. please provide the specific details for assessment.",
+          "true_label": "bug"
+        },
+        {
+          "sample_id": 102,
+          "accuracy": 1.0,
+          "prediction": "bug",
+          "true_label": "bug"
+        }
+      ],
+      "accuracy": 0.31666666666666665,
+      "metric": "accuracy",
+      "metric_value": 0.31666666666666665,
+      "predictions": [
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "i'm sorry, i need the content of the \"{title}\" and \"{body}\" to provide a classification.",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "i'm sorry, i cannot determine the classification based on the given input, you have provided placeholders instead of actual content. please provide specific details from the github issue report.",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "bug",
+        "i'm sorry, i cannot determine the classification as you've provided placeholders instead of the actual title and description text. please provide the specific details for assessment.",
+        "bug"
+      ],
+      "true_labels": [
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug",
+        "non_bug",
+        "non_bug",
+        "bug",
+        "bug"
+      ],
+      "epoch": 1
+    }
+  ],
+  "optimized_prompts": [
+    {
+      "epoch": 1,
+      "path": "outputs/2025-06-14_23-39-37/prompt_epoch_1.txt",
+      "prompt": "You are a software engineering assistant tasked with classifying GitHub issues as either \"bug\" or \"non_bug.\" Use the following refined guidelines to accurately assess each issue:\n\n1. **Prioritize Language Cues in Context**: Identify language typically indicative of bugs, such as \"error,\" \"fails,\" \"unexpected,\" or \"crash,\" and evaluate these terms within the context. Prioritize phrases and consider sentence structure to determine if they describe a genuine functional problem or are used in another context.\n\n2. **Comprehensive Contextual Evaluation**: Evaluate technical jargon, error codes, and system-specific terminology carefully. Recognize that absence of action verbs and technical terms often do not rule out a bug report if they describe unmet expectations or failure modes. \n\n3. **Analyze Examples Realistically**: Integrate real-world examples of bug reports and non-bug scenarios. Bug reports usually include malfunction descriptions and reproduction steps. Non-bug reports often involve feature requests, feedback, discussions, and inquiries without evidence of software malfunction.\n\n4. **Handle Ambiguous Cases Proactively**: For ambiguous cases, employ detailed heuristics like analyzing terms, grammar, and sentence structure. Use real-world examples to illustrate ambiguity and guide classification.\n\n5. **Apply Nuanced Missing Data Rule**: When title or description is missing or vague, classify as \"non_bug,\" but distinguish between levels of vagueness. Absence of detailed malfunction scenarios typically suggests a \"non_bug\" classification.\n\n6. **Iterative Learning Encouragement**: Continually refine classification processes through learning from previous reports. Use interactions with past classified instances to improve decision-making skills.\n\nAnswer concisely with only the classification label: \"bug\" or \"non_bug.\""
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# Debug configuration - tiny dataset to inspect prompts
+experiment: "GitHub Issue Bug Detection (Debug)"
+model:
+  engine: "gpt-4o"
+  max_tokens: 256
+  temperature: 0.2
+prompt:
+  system: |
+    You are a software engineering assistant that identifies bug reports in GitHub issues.
+    Based on the title and description, determine if the issue is reporting a bug or not.
+    Be concise and answer with only the classification label.
+  user: |
+    Here is a GitHub issue report:
+    Title: "{title}"
+    Description: "{body}"
+    
+    Is this issue reporting a bug? Answer with exactly one of: "bug" or "non_bug".
+training:
+  epochs: 1
+  batch_size: 5
+  learning_rate: 1.0
+  max_prompt_chars: 3000
+  max_train_samples: 3    # Only 3 samples for debugging
+  gradient_memory: 5
+evaluation:
+  expected_classes: ["bug", "non_bug"]
+  metric: "accuracy"
+  success_threshold: 0.80
+data:
+  csv_path: "data/issues_binary.csv"
+  text_columns: ["title", "body"]
+  label_column: "label"
+  train_test_split: 0.8
