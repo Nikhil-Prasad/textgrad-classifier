@@ -44,7 +44,7 @@ jobs:
       # 6️⃣  Generate datasets
       - name: Create demo CSVs
         run: |
-          poetry run python scripts/data_prep/prepare_data.py issues --limit 300
+          poetry run python scripts/data_prep/prepare_data.py issues --limit 150
           poetry run python scripts/data_prep/prepare_issues_binary.py
 
       # 7️⃣  Run TextGrad on issues config
